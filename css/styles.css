@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-prealoader {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1624145259/destinos/CATALINA1_psxto0.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.pagina-web,
+.facebook,
+.whatsapp,
+.yates-destacados {
+  width: 300px;
+  margin: 1em;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer; 
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+
+.pagina-web:hover {
+  background-color:#21646D;
+  color: #fff;
+}
+.facebook:hover {
+  background-color: #1977f2;
+  color: #fff;
+}
+.whatsapp:hover {
+  background-color: #00bb2d;
+  color: #fff;
+}
+.yates-destacados:hover {
+  background-color:#3b89ad;
+  color: #fff;
+}
+
+.logo {
+  margin-top: 10em;
+}
+
+@media screen and (max-width: 300px) {
+.pagina-web,
+.facebook,
+.whatsapp,
+.yates-destacados {
+  width: 250px;
+}
+.logo {
+  display: none;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .container  {
+    margin-top: 7em;
+  }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+  .container  {
+    margin-top: 7.5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
